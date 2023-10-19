@@ -8,6 +8,7 @@ const ordersFilePath = path.join(__dirname, '../data/orders.csv');
 // Output Files
 const orderPricesFilePath = path.join(__dirname, '../data/order_prices.csv');
 const productCustomersFilePath = path.join(__dirname, '../data/product_customers.csv');
+const customerRankingFilePath = path.join(__dirname, '../data/customer_ranking.csv');
 
 // Export file paths
 module.exports = {
@@ -16,4 +17,5 @@ module.exports = {
     ordersFilePath,
     orderPricesFilePath,
     productCustomersFilePath,
+    customerRankingFilePath,
 }
